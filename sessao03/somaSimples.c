@@ -1,6 +1,8 @@
+//EXERCICIO NUMERO 03 
+//Peça ao usuario digitar três valores inteiro e imprima a soma deles
+
 #include <stdio.h>
 
-//Peça ao usuario digitar três valores inteiro e imprima a soma deles
 int valor1, valor2, valor3, resultado;
 main()
 {

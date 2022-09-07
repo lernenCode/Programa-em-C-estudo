@@ -1,4 +1,6 @@
 /*
+EXERCICIO NUMERO 14
+
 A nota final de um estudante é calculada a partir de três 
 notas atribuidas entre o intervalo de 0 até 10 de acordo 
 com o resultado, mostre na tela se o aluno está:
@@ -49,11 +51,11 @@ main()
     }
 
     // Relatorio
-    printf("A nota do trabalho de laboratório é: %.2f \n", nota1);
-    printf("A nota da avaliaçao é: %.2f \n", nota2);
-    printf("A nota do exame final é: %.2f \n", nota3);
-    printf ("O total do aluno é: %.2f\n", total = nota1 + nota2 + nota3);
-    printf ("A media do aluno é: %.2f \n", media = total / avaliacoes);
+    printf("A nota do trabalho de laboratório é: %.1f \n", nota1);
+    printf("A nota da avaliaçao é: %.1f \n", nota2);
+    printf("A nota do exame final é: %.1f \n", nota3);
+    printf ("O total do aluno é: %.1f\n", total = nota1 + nota2 + nota3);
+    printf ("A media do aluno é: %.1f \n", media = total / avaliacoes);
 
     printf ("O aluno está:");
 

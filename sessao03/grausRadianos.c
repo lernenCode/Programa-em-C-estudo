@@ -1,6 +1,8 @@
+// EXERCICIO NUMERO 14
+// leia um angulo em radianos e apresente-o convertido em graus.
+
 #include <stdio.h>
 
-// leia um angulo em radianos e apresente-o convertido em graus.
 float radianos, graus;
 const double pi =  3.14159265358979323846;
 
