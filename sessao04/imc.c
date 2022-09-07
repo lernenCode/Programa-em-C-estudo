@@ -1,3 +1,7 @@
+// EXERCICIO NUMERO 10
+/*
+    calcula seu percentual de peso 
+*/
 #include <stdio.h>
 
 float altura, peso, idade, imc;
@@ -40,10 +44,10 @@ main()
             scanf("%f", &idade);
         }
 
-        //calcular
+        //Calcular
         imc = peso / (altura * altura);
 
-
+        //Resultados
         if(idade <= 19)
         {
             if(imc < 5) {printf ("\n seu porcentual do imc é %f, sendo BAIXO PESO", imc);}
