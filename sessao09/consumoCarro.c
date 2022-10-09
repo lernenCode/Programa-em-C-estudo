@@ -1,4 +1,5 @@
 #include "drawing.h" // Biblioteca exercicio 016 de desenhos
+#include "tools.h"
 #include <stdio.h>
 
 // Exercicio 014 Consumo de carro, recebe distancia em Km e quantidade de litros
@@ -18,21 +19,25 @@ void Rendimento()
     if(rendimento > 14){printf("Super economico :D GoodJob! \n");}
 }
 
-
-int main()
+void main()
 {
-    espaco();
-    printf("Quantos litros voce colocou \n");
-    scanf("%f", &l);  // %d para int
-    espaco();
-    printf("Quantos Km voce andou \n");
-    scanf("%f", &km); // %d para int
-    espaco();
+    do
+    {
+        espaco();
+        printf("Quantos Km voce andou \n");
+        scanf("%f", &km);espaco();
+        printf("Quantos litros voce colocou \n");
+        scanf("%f", &l);espaco();
 
-    linhaTracejada();
-    Rendimento();
-    linhaTracejada();
+        linhaTracejada();
+        Rendimento();
+        linhaTracejada();
 
-    return 0;
+        repeat();
+    } while(repetir != 0);
+
+    printf("\nFim ");
+    system("\n pause");
 }
+
 
